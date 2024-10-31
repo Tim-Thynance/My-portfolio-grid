@@ -36,15 +36,18 @@ Navbar
   max-width: 1170px;
   margin: 0 auto;
 }
+.nav-header{
+  display: flex;
+  justify-content: space-between;
 
+}
 .nav-btn {
   background: transparent;
   border-color: transparent;
   color: var(--clr-primary-5);
   cursor: pointer;
   font-size: 2rem;
-  justify-self: flex-end;
-  /* justify-content: space-between; */
+  /* justify-self: flex-end; */
 }
 
 @media screen and (min-width: 768px) {
