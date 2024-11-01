@@ -47,6 +47,7 @@ Navbar
   color: var(--clr-primary-5);
   cursor: pointer;
   font-size: 2rem;
+  padding-right: 2rem;
   /* justify-self: flex-end; */
 }
 
@@ -90,7 +91,7 @@ Navbar
 /* =======
 fixed navbar
 ============ */
-.navbar-fixed {
+.navbar-fixed{
   position: fixed;
   top: 0;
   left: 0;
